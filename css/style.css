@@ -1,0 +1,60 @@
+.decoration-none {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-top-10 {
+    margin-top: 100px;
+}
+
+.date {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.3, #ff69b4), color-stop(0.8, #ffffff));
+    background-image: -moz-linear-gradient(left top, rgb(255, 95, 194) 30%, #f3f3f3 80%);
+}
+
+.postlist {
+    padding: 5px 0px;
+    border-bottom: rgb(255, 95, 194) 1px solid;
+}
+
+.postlist a:hover {
+    color: #ff69b4!important;
+}
+
+.postlist a:visited {
+    color: #ffca00!important;
+}
+
+.two-line {
+    /* height:55px; */
+    overflow: hidden;
+    /*须给一个高，以便不支持时不显示超出内容*/
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /*显示3行，超出的用省略号代替*/
+    -webkit-box-orient: vertical;
+}
+
+.one-line {
+    /* height:55px; */
+    overflow: hidden;
+    /*须给一个高，以便不支持时不显示超出内容*/
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /*显示3行，超出的用省略号代替*/
+    -webkit-box-orient: vertical;
+}
